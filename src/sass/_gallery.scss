@@ -1,0 +1,17 @@
+.gallery__set {
+    display: flex;
+    align-items: center;
+}
+
+.gallery__pairs {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__img+.gallery__img {
+    margin-top: 8px;
+}
+
+.gallery__pairs+.gallery__pairs {
+    margin-left: 8px;
+}
